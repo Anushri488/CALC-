@@ -1,3 +1,5 @@
+package Tokenizer;
+
 public class Token {
     private final TokenType type;
     private final String value;
@@ -23,7 +25,7 @@ public class Token {
 
     @Override
     public String toString() {
-        return "Token{" +
+        return "Tokenizer.Tokenizer.Token{" +
                 "type=" + type +
                 ", value='" + value + '\'' +
                 ", line=" + line +
