@@ -1,3 +1,5 @@
+package Tokenizer;
+
 public enum TokenType {
     NUMBER,
     STRING,
