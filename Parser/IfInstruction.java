@@ -1,6 +1,9 @@
 package Parser;
 
+import Evaluator.Environment;
 import java.util.List;
+
+
 
 public class IfInstruction implements Instruction {
     private final Expression condition;

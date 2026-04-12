@@ -1,5 +1,7 @@
 package Parser;
 
+import Evaluator.Environment;
+
 import java.util.List;
 
 public class RepeatInstruction implements Instruction {

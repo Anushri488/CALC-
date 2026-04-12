@@ -1,5 +1,7 @@
 package Parser;
 
+import Evaluator.Environment;
+
 public class StringNode implements Expression {
     private final String value;
 

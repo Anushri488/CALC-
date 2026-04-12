@@ -1,5 +1,7 @@
 package Parser;
 
+import Evaluator.Environment;
+
 public class PrintInstruction implements Instruction {
     private final Expression expression;
 

@@ -1,5 +1,7 @@
 package Parser;
 
+import Evaluator.Environment;
+
 public class AssignInstruction implements Instruction {
     private final String variableName;
     private final Expression valueExpression;

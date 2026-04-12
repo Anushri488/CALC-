@@ -1,5 +1,5 @@
 package Parser;
-
+import Evaluator.Environment;
 public class NumberNode implements Expression {
     private final double value;
 
