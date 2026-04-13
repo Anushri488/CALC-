@@ -65,6 +65,9 @@ public class Parser {
 
     // Step 2: Figuring out which instruction we are looking at
     private Instruction parseInstruction() {
+        while (peek().getType() == TokenType.NEWLINE) {
+        advance();
+        }
         Token token = peek();
 
         if (token.getType() == TokenType.PRINT) {
