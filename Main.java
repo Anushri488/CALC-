@@ -23,6 +23,6 @@ public class Main {
         Interpreter interpreter = new Interpreter();
         interpreter.execute(instructions);
 
-        System.out.println("Final State: " + interpreter.getEnvironment());
+        //System.out.println("Final State: " + interpreter.getEnvironment());
     }
 }
