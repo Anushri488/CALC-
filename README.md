@@ -12,6 +12,7 @@ y = x + 5
 Output:
 
 y = 15
+---
 🚀 Features
 Supports variable assignments
 Evaluates mathematical expressions
@@ -55,14 +56,8 @@ Stored in environment:
 x → 15
 ⚙️ Key Components
 🔹 Instruction
-
-Represents executable actions like assignment.
-
 void execute(Environment env);
 🔹 Expression
-
-Represents computations and returns values.
-
 Object evaluate(Environment env);
 🔹 Environment
 
@@ -78,11 +73,12 @@ java Main
 Input:
 
 x = 10
-y = x + 5
+y = x + 5  ```
 
 Output:
 
 y = 15
+---
 🛠️ Technologies Used
 Java
 Object-Oriented Programming (OOP)
