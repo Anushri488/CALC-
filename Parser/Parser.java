@@ -147,7 +147,15 @@ public class Parser {
         }
 
         List<Instruction> body = new ArrayList<>();
-        body.add(parseInstruction());
+
+        // instructions to form a multi-line block!
+        while (!isAtEnd()) {
+            if (peek().getType() == TokenType.NEWLINE) {
+                advance();
+                continue;
+            }
+            body.add(parseInstruction());
+        }
 
         return new RepeatInstruction(count, body);
     }
