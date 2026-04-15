@@ -118,13 +118,13 @@ Computes and returns a value.
 ### 1. Compile
 
 ```bash
-javac Main.java Parser/*.java Evaluator/*.java
+javac Tokenizer/*.java Parser/*.java Evaluator/*.java Main.java
 ```
 
 ### 2. Run
 
 ```bash
-java Main
+java Main program1.calc
 ```
 
 ---
